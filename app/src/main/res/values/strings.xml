@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Service Test</string>
+
+    <string name="auth_view_welcome">Welcome!</string>
+    <string name="auth_view_sign_in_error">Error during signing in. Please, try again!</string>
+    <string name="auth_view_sign_in_success">Welcome dear %s!</string>
+</resources>
