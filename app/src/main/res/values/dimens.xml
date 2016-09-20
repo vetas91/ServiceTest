@@ -7,5 +7,6 @@
     <dimen name="text_l">18sp</dimen>
 
 
+    <dimen name="margin_s">4dp</dimen>
     <dimen name="margin_l">16dp</dimen>
 </resources>
