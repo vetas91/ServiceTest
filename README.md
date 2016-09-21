@@ -4,10 +4,5 @@ Simple test example of using :
 - ButterKnife
 - Google Plus Auth
 - Fragments
-
-TODO : 
-- Add service
-
-Optional :
-- Add Dagger 2
-- Add logout
+- Notification
+- Service
