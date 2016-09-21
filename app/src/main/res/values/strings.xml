@@ -10,5 +10,7 @@
 
     <string name="content_item_color_message">Random color</string>
 
+    <string name="number_service_notification_title">New value present</string>
+    <string name="number_service_notification_massage">You got : %s</string>
 
 </resources>

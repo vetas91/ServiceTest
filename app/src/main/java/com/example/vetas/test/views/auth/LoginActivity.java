@@ -16,7 +16,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class LoginActivity
-        extends MvpActivity<IAuthView, AuthPresenter>
+        extends MvpActivity<IAuthView, IAuthPresenter>
         implements IAuthView {
 
     @BindView(R.id.btn_auth_view_sign_in)
@@ -32,7 +32,7 @@ public class LoginActivity
 
     @NonNull
     @Override
-    public AuthPresenter createPresenter() {
+    public IAuthPresenter createPresenter() {
         return new AuthPresenter();
     }
 

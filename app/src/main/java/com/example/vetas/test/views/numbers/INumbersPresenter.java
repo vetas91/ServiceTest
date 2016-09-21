@@ -1,7 +1,11 @@
 package com.example.vetas.test.views.numbers;
 
+import android.content.Context;
+import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 
+import com.example.vetas.test.common.services.NumberService;
 import com.hannesdorfmann.mosby.mvp.MvpPresenter;
 
 /**
@@ -10,8 +14,10 @@ import com.hannesdorfmann.mosby.mvp.MvpPresenter;
 public interface INumbersPresenter extends MvpPresenter<INumbersView> {
 
 
-    void startService(AppCompatActivity activity);
+    void startService(@NonNull AppCompatActivity activity);
 
-    void cancel();
+    void cancel(@NonNull AppCompatActivity activity);
+
+    Intent getServiceIntent(@NonNull Context context);
 
 }
