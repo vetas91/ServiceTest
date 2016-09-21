@@ -24,5 +24,18 @@ public class NumbersActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_numbers);
+        startService();
+    }
+
+
+    public void startService() {
+        presenter.startService(this);
+    }
+
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        presenter.cancel();
     }
 }

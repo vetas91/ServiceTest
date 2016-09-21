@@ -6,7 +6,7 @@ import android.support.annotation.NonNull;
 import android.widget.Toast;
 
 import com.example.vetas.test.R;
-import com.example.vetas.test.base.Constant;
+import com.example.vetas.test.common.Constant;
 import com.example.vetas.test.views.numbers.NumbersActivity;
 import com.google.android.gms.common.SignInButton;
 import com.hannesdorfmann.mosby.mvp.MvpActivity;

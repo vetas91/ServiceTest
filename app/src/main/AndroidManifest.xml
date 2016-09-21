@@ -25,6 +25,10 @@
         <activity
             android:name=".views.numbers.NumbersActivity"
             android:screenOrientation="portrait" />
+
+        <service
+            android:name=".common.services.NumberService"
+            android:enabled="true" />
     </application>
 
 </manifest>
